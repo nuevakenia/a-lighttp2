@@ -21,4 +21,4 @@ WORKDIR /src/www
 
 EXPOSE 80
 
-ENTRYPOINT ["lighttpd2", "-c", "/etc/lighttpd/angel.conf"] 
+ENTRYPOINT ["lighttpd2", "-c", "/etc/lighttpd2/angel.conf"] 
