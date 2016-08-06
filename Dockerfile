@@ -15,9 +15,9 @@ adduser -D www-data
 COPY ./conf /etc/lighttpd2
 
 VOLUME ["/etc/lighttpd2"]
-VOLUME ["/www"]
+VOLUME ["/src/www"]
 
-WORKDIR /www
+WORKDIR /src/www
 
 EXPOSE 80
 
