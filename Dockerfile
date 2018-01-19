@@ -1,4 +1,4 @@
-FROM alpine:3.4
+FROM alpine:3.7
 
 RUN apk add --no-cache --update gcc g++ glib glib-dev make libtool automake autoconf libev libev-dev lua-dev ragel glib lua zlib zlib-dev libbz2 libssl1.0 openssl-dev && \
 wget http://git.lighttpd.net/lighttpd/lighttpd2.git/snapshot/lighttpd2-master.tar.gz && \
